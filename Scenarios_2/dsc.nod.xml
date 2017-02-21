@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
+   <node id="A" x="100.0" y="100.0" type="priority"/>
+   <node id="B" x="1000.0" y="100.0" type="priority"/>
+   <node id="C" x="550.0" y="10.0" type="priority"/>
+   <node id="D" x="400.0" y="400.0" type="priority"/>
+   <node id="E" x="550.0" y="400.0" type="priority"/>
+   <node id="F" x="700.0" y="400.0" type="priority"/>
+   <node id="G" x="100.0" y="600.0" type="priority"/>
+   <node id="H" x="1000.0" y="600.0" type="priority"/>
+   <node id="I" x="100.0" y="900.0" type="priority"/>
+   <node id="J" x="1000.0" y="900.0" type="priority"/>
+   <node id="K" x="400.0" y="1100.0" type="priority"/>
+   <node id="L" x="700.0" y="1100.0" type="priority"/>
+
+   <node id="IK" x="400.0" y="900.0" type="traffic_light"/>
+   <node id="LJ" x="700.0" y="900.0" type="traffic_light"/>
+   <node id="GD" x="400.0" y="600.0" type="traffic_light"/>
+   <node id="FH" x="700.0" y="600.0" type="traffic_light"/>
+   <node id="AC" x="550.0" y="100.0" type="traffic_light"/>
+   
+</nodes>

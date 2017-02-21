@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+   <edge id="G_GD" from="G" to="GD" priority="1" numLanes="2" speed="5.0" />
+   <edge id="GD_FH" from="GD" to="FH" priority="1" numLanes="2" speed="5.0" />
+   <edge id="FH_H" from="FH" to="H" priority="1" numLanes="2" speed="5.0" />
+   <edge id="I_IK" from="I" to="IK" priority="1" numLanes="2" speed="5.0" />
+   <edge id="IK_LJ" from="IK" to="LJ" priority="1" numLanes="2" speed="5.0" />
+   <edge id="LJ_J" from="LJ" to="J" priority="1" numLanes="2" speed="5.0" />
+   <edge id="K_IK" from="K" to="IK" priority="1" numLanes="1" speed="5.0" />
+   <edge id="IK_GD" from="IK" to="GD" priority="1" numLanes="1" speed="5.0" />
+   <edge id="GD_D" from="GD" to="D" priority="1" numLanes="1" speed="5.0" />
+   <edge id="L_LJ" from="L" to="LJ" priority="1" numLanes="1" speed="5.0" />
+   <edge id="LJ_FH" from="LJ" to="FH" priority="1" numLanes="1" speed="5.0" />
+   <edge id="FH_F" from="FH" to="F" priority="1" numLanes="1" speed="5.0" />
+   <edge id="DE" from="D" to="E" priority="1" numLanes="1" speed="5.0" />
+   <edge id="FE" from="F" to="E" priority="1" numLanes="1" speed="5.0" />
+   <edge id="E_AC" from="E" to="AC" priority="1" numLanes="2" speed="5.0" />
+   <edge id="AC_C" from="AC" to="C" priority="1" numLanes="2" speed="5.0" />
+   <edge id="A_AC" from="A" to="AC" priority="1" numLanes="2" speed="5.0" />
+   <edge id="AC_B" from="AC" to="B" priority="1" numLanes="2" speed="5.0" />
+</edges>

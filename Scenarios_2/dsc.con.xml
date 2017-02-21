@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<connections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/connections_file.xsd">
+	<connection from="I_IK" to="IK_LJ"/>
+	<connection from="IK_LJ" to="LJ_J"/>
+
+	<connection from="G_GD" to="GD_FH"/>
+	<connection from="GD_FH" to="FH_H"/>
+	
+	<connection from="A_AC" to="AC_B"/>
+	
+	<connection from="K_IK" to="IK_GD"/>
+	<connection from="IK_GD" to="GD_D"/>
+	<connection from="GD_D" to="DE"/>
+	<connection from="DE" to="E_AC"/>
+	<connection from="E_AC" to="AC_C"/>
+
+	<connection from="L_LJ" to="LJ_FH"/>
+	<connection from="LJ_FH" to="FH_F"/>
+	<connection from="FH_F" to="FE"/>
+	<connection from="FE" to="E_AC"/>
+
+</connections>

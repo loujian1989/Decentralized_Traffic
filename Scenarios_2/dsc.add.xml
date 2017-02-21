@@ -1,0 +1,76 @@
+<additional>
+  <detectors>
+    <e1Detector id="T1" lane="K_IK_0" pos="150"  freq="1" file="dsc.out" friendlyPos="true"/>
+    <e1Detector id="T2" lane="IK_GD_0" pos="250" freq="1" file="dsc.out" friendlyPos="true"/>
+    <e1Detector id="T3" lane="L_LJ_0" pos="150" freq="1" file="dsc.out" friendlyPos="true"/>
+    <e1Detector id="T4" lane="LJ_FH_0" pos="250" freq="1" file="dsc.out" friendlyPos="true"/>
+    <e1Detector id="T5" lane="E_AC_0" pos="250" freq="1" file="dsc.out" friendlyPos="true"/>
+    <e1Detector id="T6" lane="E_AC_1" pos="250" freq="1" file="dsc.out" friendlyPos="true"/>
+    
+    <e1Detector id="S1" lane="IK_GD_0" pos="5"  freq="1" file="dsc.out" friendlyPos="true"/>
+    <e1Detector id="S2" lane="GD_D_0" pos="5" freq="1" file="dsc.out" friendlyPos="true"/>
+    <e1Detector id="S3" lane="LJ_FH_0" pos="5" freq="1" file="dsc.out" friendlyPos="true"/>
+    <e1Detector id="S4" lane="FH_F_0" pos="5" freq="1" file="dsc.out" friendlyPos="true"/>
+    <e1Detector id="S5" lane="AC_C_0" pos="5" freq="1" file="dsc.out" friendlyPos="true"/>
+    <e1Detector id="S6" lane="AC_C_1" pos="5" freq="1" file="dsc.out" friendlyPos="true"/>
+    
+    <e1Detector id="U1" lane="IK_LJ_0" pos="5"  freq="1" file="dsc.out" friendlyPos="true"/>
+    <e1Detector id="U2" lane="IK_LJ_1" pos="5" freq="1" file="dsc.out" friendlyPos="true"/>
+    <e1Detector id="U3" lane="LJ_J_0" pos="5" freq="1" file="dsc.out" friendlyPos="true"/>
+    <e1Detector id="U4" lane="LJ_J_1" pos="5" freq="1" file="dsc.out" friendlyPos="true"/>
+    <e1Detector id="U5" lane="GD_FH_0" pos="5" freq="1" file="dsc.out" friendlyPos="true"/>
+    <e1Detector id="U6" lane="GD_FH_1" pos="5" freq="1" file="dsc.out" friendlyPos="true"/>
+    <e1Detector id="U7" lane="FH_H_0" pos="5" freq="1" file="dsc.out" friendlyPos="true"/>
+    <e1Detector id="U8" lane="FH_H_1" pos="5" freq="1" file="dsc.out" friendlyPos="true"/>
+    <e1Detector id="U9" lane="AC_B_0" pos="5" freq="1" file="dsc.out" friendlyPos="true"/>
+    <e1Detector id="U10" lane="AC_B_1" pos="5" freq="1" file="dsc.out" friendlyPos="true"/>
+
+    <e1Detector id="V1" lane="I_IK_0" pos="250"  freq="1" file="dsc.out" friendlyPos="true"/>
+    <e1Detector id="V2" lane="I_IK_1" pos="250" freq="1" file="dsc.out" friendlyPos="true"/>
+    <e1Detector id="V3" lane="IK_LJ_0" pos="250" freq="1" file="dsc.out" friendlyPos="true"/>
+    <e1Detector id="V4" lane="IK_LJ_1" pos="250" freq="1" file="dsc.out" friendlyPos="true"/>
+    <e1Detector id="V5" lane="G_GD_0" pos="250" freq="1" file="dsc.out" friendlyPos="true"/>
+    <e1Detector id="V6" lane="G_GD_1" pos="250" freq="1" file="dsc.out" friendlyPos="true"/>
+    <e1Detector id="V7" lane="GD_FH_0" pos="250" freq="1" file="dsc.out" friendlyPos="true"/>
+    <e1Detector id="V8" lane="GD_FH_1" pos="250" freq="1" file="dsc.out" friendlyPos="true"/>
+    <e1Detector id="V9" lane="A_AC_0" pos="400" freq="1" file="dsc.out" friendlyPos="true"/>
+    <e1Detector id="V10" lane="A_AC_1" pos="400" freq="1" file="dsc.out" friendlyPos="true"/>
+  </detectors> 
+  
+  
+  <tlLogic id="IK" programID="my_program" offset="0" type="static">
+    <phase duration="30"  state="rGG"/>
+    <phase duration="5"  state="ryy"/>
+    <phase duration="30" state="Grr"/>
+    <phase duration="5"  state="yrr"/>
+  </tlLogic>
+
+  <tlLogic id="GD" programID="my_program" offset="0" type="static">
+    <phase duration="30"  state="rGG"/>
+    <phase duration="5"  state="ryy"/>
+    <phase duration="30" state="Grr"/>
+    <phase duration="5"  state="yrr"/>
+  </tlLogic>
+
+  <tlLogic id="LJ" programID="my_program" offset="0" type="static">
+    <phase duration="30"  state="rGG"/>
+    <phase duration="5"  state="ryy"/>
+    <phase duration="30" state="Grr"/>
+    <phase duration="5"  state="yrr"/>
+  </tlLogic>
+
+  <tlLogic id="FH" programID="my_program" offset="0" type="static">
+    <phase duration="30"  state="rGG"/>
+    <phase duration="5"  state="ryy"/>
+    <phase duration="30" state="Grr"/>
+    <phase duration="5"  state="yrr"/>
+  </tlLogic>
+
+  <tlLogic id="AC" programID="my_program1" offset="0" type="static">
+    <phase duration="30"  state="rrGG"/>
+    <phase duration="5"  state="rryy"/>
+    <phase duration="30" state="GGrr"/>
+    <phase duration="5"  state="yyrr"/>
+  </tlLogic>
+  
+</additional>

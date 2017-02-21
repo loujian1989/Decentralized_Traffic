@@ -1,0 +1,16 @@
+<detectors>
+	<e1Detector id="S1" lane="K_IK_0" pos="85"  freq="1" file="dsc.out" friendlyPos="true"/>
+	<e1Detector id="S2" lane="IK_GD_0" pos="285" freq="1" file="dsc.out" friendlyPos="true"/>
+	<e1Detector id="S3" lane="L_LJ_0" pos="85" freq="1" file="dsc.out" friendlyPos="true"/>
+	<e1Detector id="S4" lane="LJ_FH_0" pos="285" freq="1" file="dsc.out" friendlyPos="true"/>
+	<e1Detector id="S5" lane="E_AC_0" pos="285" freq="1" file="dsc.out" friendlyPos="true"/>
+	<e1Detector id="S6" lane="E_AC_1" pos="285" freq="1" file="dsc.out" friendlyPos="true"/>
+  
+  <e1Detector id="T1" lane="K_IK_0" pos="20"  freq="1" file="dsc.out" friendlyPos="true"/>
+  <e1Detector id="T2" lane="IK_GD_0" pos="200" freq="1" file="dsc.out" friendlyPos="true"/>
+  <e1Detector id="T3" lane="L_LJ_0" pos="20" freq="1" file="dsc.out" friendlyPos="true"/>
+  <e1Detector id="T4" lane="LJ_FH_0" pos="200" freq="1" file="dsc.out" friendlyPos="true"/>
+  <e1Detector id="T5" lane="E_AC_0" pos="200" freq="1" file="dsc.out" friendlyPos="true"/>
+  <e1Detector id="T6" lane="E_AC_1" pos="200" freq="1" file="dsc.out" friendlyPos="true"/>
+</detectors>
+

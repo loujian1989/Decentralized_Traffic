@@ -1,0 +1,20 @@
+<routes>
+    <vType id="car" accel="0.8" decel="4.5" sigma="0.5" length="3" minGap="1.5" maxSpeed="1.067" guiShape="passenger"/>
+    <vType id="fireTruck" accel="0.8" decel="4.5" sigma="0.5" length="8" minGap="3" maxSpeed="1.567" guiShape="truck"/>
+
+    <flow id="flowsI2J" begin="0" end="400" probability="0.2" type="car">
+		<route edges="I_IK IK_LJ LJ_J"/>
+	</flow>
+    <flow id="flowsG2H" begin="0" end="400" probability="0.2" type="car">
+		<route edges="G_GD GD_FH FH_H"/>
+	</flow>
+    <flow id="flowsA2B" begin="0" end="400" probability="0.2" type="car">
+		<route edges="A_AC AC_B"/>
+	</flow>
+    <flow id="flowsK2C" begin="0" end="400" probability="0.2" type="fireTruck">
+		<route edges="K_IK IK_GD GD_D DE E_AC AC_C"/>
+	</flow>
+    <flow id="flowsL2C" begin="0" end="400" probability="0.2" type="fireTruck">
+		<route edges="L_LJ LJ_FH FH_F FE E_AC AC_C"/>
+	</flow>
+</routes>
